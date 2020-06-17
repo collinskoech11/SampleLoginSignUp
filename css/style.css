@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	background-image: url(https://source.unsplash.com/1600x900/?blue);
+}
+.container{
+	display: inline-block;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+	width:70%;
+	background-color: rgb(0,0,150,0.3);
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.container .sign-in{
+	float: left;
+	width: 30%;
+	height: 500px;
+}
+.container .sign-in .item{
+	padding-left: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.container .sign-in .submit{
+	height: 35px;
+	width: 50px;
+	color: #fff;
+	background-color: rgb(0,0,0);
+	border:1px solid rgb(0,0,150);
+	border-radius: 5px;
+	margin-left: 50px;
+	padding-top: 5px;
+	padding-bottom: -10px;
+}
+.container .sign-in .submit:hover{
+	cursor: pointer;
+}
+.container .sign-in .item p{
+	padding-bottom: 5px;
+}
+.container .sign-in .item input{
+	height: 25px;
+	border-radius: 5px;
+	background-color: rgb(0,0,0);
+	color: #fff;
+	border:2px solid rgb(0,0,150);
+}
+.container .sign-in .item input:focus{
+	background-color: #fff;
+	color: rgb(0,0,0);
+}
+.container .google-in{
+	float: left;
+	width: 40%;
+	height: 500px;
+	background-color: rgb(0,150,0,0.3);
+	background-image: url(https://source.unsplash.com/1600x900/?purple);
+}
+.container .google-in .item{
+	display: inline-block;
+
+}
+.container .google-in img{
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.container .google-in .item{
+	padding-top: 20px;
+}
+.container .google-in .item-img{
+	float: left;
+}
+.container .google-in .btn{
+	float: left;
+	width: 200px;
+	height: 25px;
+	border:1px solid #fff;
+	border-radius: 20px;
+}
+.container .google-in .btn:hover{
+	background-color: rgb(0,50,250);
+	cursor: pointer;
+}
+.container .google-in .btn:hover p{
+	color: rgb(0,0,0);
+}
+.container .google-in .btn p{
+	padding-left: 5px;
+	padding-top: 5px;
+	color: #fff;
+}
